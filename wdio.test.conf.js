@@ -36,3 +36,4 @@ config.seleniumLogs = './logs/selenium.log';
 config.maxInstances = 1;
 
 exports.config = config;
+ 
