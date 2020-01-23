@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Marketing Email Message Editor" timestamp="2019-05-23T16:05:52" time="139.692" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="84532a33dd8d6b09e84eaae16b5c21a0"/>
+      <property name="suiteName" value="Marketing Email Message Editor"/>
+      <property name="capabilities" value="chrome"/>
+      <property name="file" value=".\test\features\marketingEmail.feature"/>
+    </properties>
+  </testsuite>
+  <testcase classname="chrome.Marketing Email Message Editor" name="Create new message and Rule" time="135.381">
+    <failure/>
+    <system-out>
+      <![CDATA[
+I have logged in as "UserGroup"
+I navigate to "Marketing" tab
+I select "Repository Messages" from reports tab
+I create new message as "Test" with dates as "12/1/2018" and "6/13/2019"
+I select created new message "Test"
+edit selected message
+I navigate to Rules tab from Message Details window
+I add and verify new rule "NewRule"
+Click the insert tab to upload the file "FilePath"
+I select created new message "Test"
+Check the required check box and Approve the created message
+I select created new message "Test"
+Validate the approval status as "Pending Print Approval"
+select the Bin from drop down as "C"
+I navigate to Marketing Insert Approval tab
+edit and update the Insert id to Approve the Insert messsage "Test"
+I navigate to Marketing Repository messages tab
+I navigate to the Inserts tab
+I select created new message "Test"
+Validate the approval status as "Approved"
+Signout application]]>
+    </system-out>
+    <system-err>
+      <![CDATA[Check the required check box and Approve the created message
+[[ATTACHMENT|results\screenshots\chrome.Create new message and Rule.png]]
+
+Error: An attempt was made to operate on a modal dialog when one was not open.
+    at alertText() -     at C:\AutomationWDIO\WashingtonPost\node_modules\wdio-sync\build\index.js:316:3]]>
+    </system-err>
+  </testcase>
+</testsuites>

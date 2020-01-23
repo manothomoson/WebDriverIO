@@ -1,0 +1,209 @@
+{
+  "UserGroup": {
+    "chrome": {
+      "username": "mfrancis",
+      "password": "test123$",
+      "name": "QA Automation"
+    }
+  },
+
+  "EmailToSend": { 
+    "email": "manothomsonf@nltechdev.com"
+  },
+
+  "EmailAdminAddCustomer": {    
+    "custNumber": "123456", 
+    "clientNumber": "02032808",  
+    "email": "manothomsonf@nltechdev.com",
+    "customerType": "Standard Register"
+  },
+
+  "EmailAdminSearchCustomer": {    
+    "custNumber": "123456", 
+    "clientNumber": "02032808",  
+    "email": "manothomsonf@nltechdev.com",
+    "customerType": "Standard Register"
+  },
+  
+  "UpdateEmailAdminCustomer": {    
+    "custNumber": "123123", 
+    "clientNumber": "02032808",  
+    "email": "manothomsonf@nltech.com",
+    "customerType": "Standard Register"
+  },  
+
+  "ActivityReport": {    
+    "activities": "Log In", 
+    "username": "mfrancis",  
+    "startDate": "5/1/2018",
+    "endDate": "6/1/2019"
+  },
+
+  "EmailReport": {
+    "startDate": "5/1/2018",
+    "endDate": "6/1/2019"
+  },
+  
+  "ExternalCleintAPI": {    
+    "ExternalAPIInfoURL": "https://uat-superior.taylorcommunications.com/ExternalClientDocApi/SuperiorEnergy/documents/Info/", 
+    "ExternalAPIGetURL": "https://uat-superior.taylorcommunications.com/ExternalClientDocApi/SuperiorEnergy/documents/Get/",  
+    "ExternalAPIConversionURL": "http://www.conversion-tool.com/base64",
+    "customerType": "Standard Register"
+  },  
+  
+  "EmailSentReports": {    
+    "activities": "View PDF", 
+    "username": "MFrancis",
+    "email": "manothomsonf@nltechdev.com",  
+    "startDate": "5/1/2018",
+    "endDate": "5/14/2019"
+  }, 
+
+  "ReportPermissions": {    
+    "clientNo": "23", 
+    "reportList": "Carton Count Listing"
+  }, 
+  
+  "IncorrectPassword": {
+    "chrome": {
+      "username": "b_murugesan",
+      "password": "@24"
+    }
+  },
+
+  "ChangePassword": {
+    "chrome": {
+      "username": "b_murugesan",
+      "password": "alliswell@24",
+      "newPwd": "allchange@24",
+      "confirmNewPwd": "allchange@24"
+    }
+  },
+
+  "ChangedPassword": {
+    "chrome": {
+      "username": "testing",
+      "password": "allchange@24",
+      "newPwd": "allizwell@24",
+      "confirmNewPwd": "allizwell@24"
+    }
+  },
+
+  "UpdatePassword": {
+    "chrome": {
+      "username": "testing",
+      "password": "alliswell@24",
+      "newPwd": "alliswell@24",
+      "confirmNewPwd": "alliswell@24"
+    }  
+  },
+
+  "CreateNewUser": {
+    "chrome": {
+      "username": "testing",
+      "firstname": "Test",
+      "lastname": "12",
+      "role": "WFOAdmin",
+      "password": "testing12!",
+      "confirmPwd": "testing12!",
+      "email": "bharanidharanm@nltechdev.com",
+      "pagesizenum": "200"
+    }
+  },
+
+  "CreateAdminNewUser": {
+    "chrome": {
+      "username": "testing12",
+      "firstname": "Test",
+      "lastname": "12",
+      "role": "WFOAdmin",
+      "password": "testing12!",
+      "confirmPwd": "testing12!",
+      "email": "bharanidharanm@nltechdev.com",
+      "pagesizenum": "200"
+    }
+  },
+
+  "CreateNewAdminUser": {
+    "chrome": {
+      "username": "testing",
+      "firstname": "Test",
+      "lastname": "12",
+      "role": "IT Administrator",
+      "password": "testing12!",
+      "confirmPwd": "testing12!",
+      "email": "bharanidharanm@nltechdev.com",
+      "pagesizenum": "100"
+    }
+  },
+
+  "CreateMarketingUser": {
+    "chrome": {
+      "username": "testing",
+      "firstname": "Test",
+      "lastname": "12",
+      "role": "Marketing Administrator",
+      "password": "testing12!",
+      "confirmPwd": "testing12!",
+      "email": "bharanidharanm@nltechdev.com",
+      "pagesizenum": "100"
+    }
+  },
+
+  "LockUserAccount": {
+    "chrome": {
+      "pagesizenum": "50",
+      "username": "testing12"      
+    }
+  },
+
+  "UnlockUserAccount": {
+    "chrome": {
+      "pagesizenum": "50",
+      "username": "testing12"      
+    }
+  },
+
+  "RemoveUserAccount": {
+    "chrome": {
+      "pagesizenum": "50",
+      "username": "testing12"      
+    }
+  },
+
+  "InsertNewMsg": {
+    "MessageName": "ZipCode Test",
+    "Description": "ZipCode Test",
+    "StartDate": "01/06/2018",
+    "EndDate": "31/08/2018"
+  },
+
+  "InsertRule": {
+    "RuleName": "ZipCode Test",
+    "RuleDescription": "ZipCode Test",
+    "StartDate": "01/06/2018",
+    "EndDate": "31/08/2018"
+  },
+  
+  "NewRuleDetails": {
+    "Type": "Statements",
+    "Attribute": "Zip_Code",
+    "Operator": "=",
+    "Value": "21093"
+  },
+
+  "FilePath": {
+    "SelectFilePath": "\\test\\resources\\TestFile.pdf"
+  },
+
+  "IPAddress": {
+      "ip": "172.17.69.218",
+      "updateNewIPValue": "192.168.182.114"      
+  },
+
+  "PublishEmailAddress": {
+    "Email": "bharanidharanm@nltech.com",
+    "updateNewEmail": "bharanidharanm@nltechdev.com"      
+  }
+
+}

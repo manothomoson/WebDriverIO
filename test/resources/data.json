@@ -1,0 +1,31 @@
+{
+  "NewRule": {
+    "RuleName": "Testing",
+    "RuleDescription": "Test Automation - New Rule",
+    "StartDate": "25/05/2018",
+    "EndDate": "25/05/2018"
+    },
+
+  "dataToSearch":{
+    "nameToSearch": "Sim",
+    "numberToSearch": "sds",
+    "DateToSearch": "25/05/2018"
+  },
+  "dataToDelete":{
+    "nameToSearch": "Sim",
+    "numberToSearch": "sds",
+    "DateToSearch": "25/05/2018"
+  },
+  "InsertNewMsg": {
+    "MessageName": "ZipCode",
+    "Description": "ZipCode Test",
+    "StartDate": "01/06/2018",
+    "EndDate": "31/08/2018"
+  },
+  "InsertRule": {
+    "RuleName": "ZipCode Test",
+    "RuleDescription": "ZipCode Test",
+    "StartDate": "01/06/2018",
+    "EndDate": "31/08/2018"
+  }
+}
