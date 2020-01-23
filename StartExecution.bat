@@ -1,0 +1,1 @@
+npm test & allure generate --clean & call "copyreport.bat"

@@ -1,0 +1,68 @@
+{
+  "name": "superiorEnergy-ui-automation",
+  "version": "1.0.0",
+  "description": "superiorEnergy ui automation",
+  "author": "Mano Thomson <manothomsonf@nltechdev.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://tctfs05:8080/tfs/Taylor%20Digital/KLIC/_git/klic-ui-automation"
+  },
+  "config": {
+    "host": "localhost",
+    "port": "4444"
+  },
+  "scripts": {
+    "a11y": "a11y ./results/a11y",
+    "dev": "wdio wdio.dev.conf.js",
+    "lint": "eslint ./src/**/*.js ./test/**/*.js",
+    "lint-fix": "eslint --fix ./src/**/*.js ./test/**/*.js",
+    "lint-gherkin": "gherkin-lint ./test/features/*.feature",
+    "staging": "wdio wdio.staging.conf.js",
+    "test": "wdio wdio.test.conf.js",
+    "jenkins": "wdio wdio.conf.js --host hub"
+  },
+  "devDependencies": {
+    "@types/webdriverio": "^4.10.1",
+    "@wdio/junit-reporter": "^5.3.1",
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-block-scoped-functions": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "cucumber": "^4.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-webdriverio": "^1.0.1",
+    "faker": "^4.1.0",
+    "gherkin-lint": "^2.8.0",
+    "mkdirp": "^0.5.1",
+    "should": "^13.2.1",
+    "wdio-allure-reporter": "^0.6.1",
+    "wdio-chromedriver-service": "^0.1.3",
+    "wdio-cucumber-framework": "^1.1.1",
+    "wdio-junit-reporter": "git+https://github.com/jukafah/wdio-junit-reporter.git",
+    "wdio-selenium-standalone-service": "^0.0.10",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.12.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
+  "dependencies": {
+    "chromedriver": "^2.38.3",
+    "copy-paste": "^1.3.0",
+    "node-fetch": "^2.6.0",
+    "node-outlook": "^1.1.8",
+    "pdf-parse": "^1.1.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
